@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="light_font">#FBFBFB</color>
+    <color name="grey_font">#ff9e9e9e</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_white">#FFFFFF</color>
+
+    <color name="orange">#FFA500</color>
+    <color name="darkGray">#707070</color>
+    <color name="darkGray2">#a9a9a9</color>
+
+    <color name="stockButtonColor">#d7d7d7</color>
+
+
+</resources>
