@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  see res/values/colors.xml -->
+
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape android:shape="rectangle">
+        <solid android:color="#000" />
+    </shape>
+</item>
+<item android:left="2.5dp" android:right="2.5dp"  android:top="2.5dp"
+    android:bottom="2.5dp">
+    <shape android:shape="rectangle">
+        <solid android:color="#fff" />
+    </shape>
+</item>
+<item>   <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_pressed="true"
+            android:drawable="@color/button_pressed"/> <!-- pressed -->
+        <item android:state_focused="true"
+            android:drawable="@color/button_focused"/> <!-- focused -->
+        <!-- <item android:drawable="@color/button_default"/> -->
+    </selector></item>
+</layer-list>
+
